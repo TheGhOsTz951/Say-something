@@ -1,0 +1,55 @@
+body, .txtIn {
+    font-family: Arial;
+}
+
+.formDiv {
+    margin: 100px auto 0;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.txtIn {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0pt 1pt 5pt 0pt gray;
+    width: 100%;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 10rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.red {
+    background-color: white;
+    color: #E04F4F;
+    border: 1px solid #E04F4F;
+    transition: all 0.3s ease;
+}
+
+.red:hover {
+    background-color: #E04F4F;
+    color: white;
+    border: 1px solid #E04F4F;
+    transition: all 0.3s ease;
+}
+
+.contScheda {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scheda {
+    margin: 10px auto 50px;
+    padding: 0px 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0pt 2pt 10pt -1pt gray;
+}
